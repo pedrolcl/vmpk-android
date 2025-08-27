@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/activity_margin"
+                android:layout_marginTop="@dimen/activity_margin">
+
+                <include layout="@layout/tab_common" />            
+                <include layout="@layout/tab_velocity" />            
+                <include layout="@layout/tab_instrument" />            
+                <include layout="@layout/tab_controller" />            
+                <include layout="@layout/tab_bender" />
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <io.github.pedrolcl.vmpk.PianoView
+        android:id="@+id/pianoView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tabhost"/>
+
+    <io.github.pedrolcl.vmpk.PianoView
+        android:id="@+id/pianoView2"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/pianoView1"
+        android:layout_marginTop="@dimen/activity_margin" />
+
+</RelativeLayout>

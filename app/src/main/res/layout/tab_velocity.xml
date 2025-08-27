@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_velocity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <SeekBar
+        android:id="@+id/velocityBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:max="127"
+        android:progress="100"/>
+
+    <TextView
+        android:id="@+id/velocityText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:gravity="end"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ToggleButton
+        android:id="@+id/velocityTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textOff="@string/turn"
+        android:textOn="@string/turn" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/tab_space"
+        android:right="@dimen/tab_space"
+        android:bottom="@dimen/tab_space"
+        android:top="@dimen/tab_space">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/tabTransparent"/>
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/tab_space"
+        android:left="@dimen/tab_space"
+        android:right="@dimen/tab_space"
+        android:top="@dimen/tab_space"
+        android:drawable="@drawable/gradientbg" />
+</layer-list>

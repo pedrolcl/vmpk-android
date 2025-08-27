@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="es">
+
+   <string-array name="lang_entries" >
+       <item>Inglés</item>
+       <item>Español</item>
+   </string-array>
+    
+   <string-array name="lang_values" >
+       <item>en</item>
+       <item>es</item>
+   </string-array>
+   
+   <string-array name="note_names">
+        <item>Do</item>
+        <item>Do♯</item>
+        <item>Re</item>
+        <item>Re♯</item>
+        <item>Mi</item>
+        <item>Fa</item>
+        <item>Fa♯</item>
+        <item>Sol</item>
+        <item>Sol♯</item>
+        <item>La</item>
+        <item>La♯</item>
+        <item>Si</item>
+   </string-array>
+
+   <string-array name="natural_names">
+        <item>Do</item>
+        <item>Re</item>
+        <item>Mi</item>
+        <item>Fa</item>
+        <item>Sol</item>
+        <item>La</item>
+        <item>Si</item>
+   </string-array>
+
+   <string-array name="natural_values">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+    </string-array>
+   
+    <string-array name="gm_groups">
+        <item>Pianos</item>  	
+        <item>Percusión cromática</item> 	
+        <item>Órganos</item>
+        <item>Guitarras</item> 	
+        <item>Bajos</item> 	
+        <item>Cuerdas</item> 	
+        <item>Conjuntos</item> 	
+        <item>Viento/metal</item>  	
+        <item>Viento/madera (lengüeta)</item>
+        <item>Viento/madera (bisel)</item>
+        <item>Sintetizador (solista)</item>
+        <item>Sintetizador (acompañamiento)</item>
+        <item>Sintetizador (efectos)</item>
+        <item>Étnicos</item>
+        <item>Percusiones</item>
+        <item>Efectos de sonido</item>
+    </string-array>
+   
+ 	<string-array name="gm_instruments">
+        <item>Piano de cola</item>
+        <item>Piano brillante</item>
+        <item>Piano eléctrico de cola</item>
+        <item>Piano Honky-Tonk</item>
+        <item>Piano eléctrico 1</item>
+        <item>Piano eléctrico 2</item>
+        <item>Clave</item>
+        <item>Clavinet</item>
+        <item>Celesta</item>
+        <item>Glockenspiel</item>
+        <item>Caja de música</item>
+        <item>Vibráfono</item>
+        <item>Marimba</item>
+        <item>Xilófono</item>
+        <item>Tubular Bells</item>
+        <item>Dulcimer</item>
+        <item>Órgano Hammond</item>
+        <item>Órgano percusivo</item>
+        <item>Órgano rock</item>
+        <item>Órgano de iglesia</item>
+        <item>Harmonium</item>
+        <item>Acordeón</item>
+        <item>Armónica</item>
+        <item>Bandoneón</item>
+        <item>Guitarra española</item>
+        <item>Guitarra acústica</item>
+        <item>Guitarra eléctrica (jazz)</item>
+        <item>Guitarra eléctrica</item>
+        <item>Guitarra eléctrica enmudecida</item>
+        <item>Guitarra saturada</item>
+        <item>Guitarra con distorsión</item>
+        <item>Armónicos guitarra</item>
+        <item>Bajo acústico</item>
+        <item>Bajo eléctrico</item>
+        <item>Bajo eléctrico (púa)</item>
+        <item>Bajo sin trastes</item>
+        <item>Bajo Slap 1</item>
+        <item>Bajo Slap 2</item>
+        <item>Bajo sintetizado 1</item>
+        <item>Bajo sintetizado 2</item>
+        <item>Violín</item>
+        <item>Viola</item>
+        <item>Violonchelo</item>
+        <item>Contrabajo</item>
+        <item>Tremolo</item>
+        <item>Pizzicato</item>
+        <item>Arpa</item>
+        <item>Timbales 	</item>
+        <item>Cuerdas 1</item>
+        <item>Cuerdas 2</item>
+        <item>Cuerdas sintetizadas 1</item>
+        <item>Cuerdas sintetizadas 2</item>
+        <item>Coro Aahs</item>
+        <item>Voces Oohs</item>
+        <item>Voz sintetizada</item>
+        <item>Golpe de orquesta</item>
+        <item>Trompeta</item>
+        <item>Trombón</item>
+        <item>Tuba</item>
+        <item>Trompeta con sordina</item>
+        <item>Trompa</item>
+        <item>Sección metales</item>
+        <item>Metales sintetizados 1</item>
+        <item>Metales sintetizados 2</item>
+        <item>Saxofón soprano</item>
+        <item>Saxofón contralto</item>
+        <item>Saxofón tenor</item>
+        <item>Saxofón barítono</item>
+        <item>Oboe</item>
+        <item>Corno inglés</item>
+        <item>Fagot</item>
+        <item>Clarinete</item>
+        <item>Flautín</item>
+        <item>Flauta travesera</item>
+        <item>Flauta dulce</item>
+        <item>Flauta de pan</item>
+        <item>Botella</item>
+        <item>Skakuhachi</item>
+        <item>Whistle</item>
+        <item>Ocarina</item>
+        <item>Onda cuadrada</item>
+        <item>Diente de sierra</item>
+        <item>Órgano de vapor</item>
+        <item>Chiffer</item>
+        <item>Charango</item>
+        <item>Voz</item>
+        <item>Quintas</item>
+        <item>Bajo y solista</item>
+        <item>Fantasía - NewAge</item>
+        <item>Cálido</item>
+        <item>Polisintetizador</item>
+        <item>Voz</item>
+        <item>Vidrio con arco</item>
+        <item>Metálico</item>
+        <item>Halo</item>
+        <item>Sweep</item>
+        <item>Lluvia</item>
+        <item>Banda sonora</item>
+        <item>Cristal</item>
+        <item>Atmósfera</item>
+        <item>Brillo</item>
+        <item>Duendes</item>
+        <item>Ecos</item>
+        <item>Tema estelar</item>
+        <item>Sitar</item>
+        <item>Banjo</item>
+        <item>Shamishen</item>
+        <item>Koto</item>
+        <item>Kalimba</item>
+        <item>Gaita</item>
+        <item>Violín rústico</item>
+        <item>Shanai</item>
+        <item>Campanillas</item>
+        <item>Agogó</item>
+        <item>Caja Metal</item>
+        <item>Caja Madera</item>
+        <item>Taiko</item>
+        <item>Timbal</item>
+        <item>Caja sintetizada</item>
+        <item>Plato invertido</item>
+        <item>Traste de guitarra</item>
+        <item>Respiración</item>
+        <item>Playa</item>
+        <item>Pájaro</item>
+        <item>Teléfono</item>
+        <item>Helicóptero</item>
+        <item>Aplauso</item>
+        <item>Disparo</item>
+    </string-array>
+   
+   	<string-array name="channels">
+	    <item>Canal 1</item>
+	    <item>Canal 2</item>
+	    <item>Canal 3</item>
+	    <item>Canal 4</item>
+	    <item>Canal 5</item>
+	    <item>Canal 6</item>
+	    <item>Canal 7</item>
+	    <item>Canal 8</item>
+	    <item>Canal 9</item>
+	    <item>Canal 10</item>
+	    <item>Canal 11</item>
+	    <item>Canal 12</item>
+	    <item>Canal 13</item>
+	    <item>Canal 14</item>
+	    <item>Canal 15</item>
+	    <item>Canal 16</item>
+	</string-array>
+	
+	<string-array name="octaves">
+   	    <item>Octava 0</item>
+	    <item>Octava 1</item>
+	    <item>Octava 2</item>
+   	    <item>Octava 3</item>
+   	    <item>Octava 4</item>
+   	    <item>Octava 5</item>
+   	    <item>Octava 6</item>
+   	    <item>Octava 7</item>
+	</string-array>
+	
+	<string-array name="controllers">
+	    <item>Modulación</item>
+	    <item>Volumen</item>
+   	    <item>Panorama</item>
+   	    <item>Expresión</item>
+   	    <item>Sostenido</item>
+   	    <item>Reverberación</item>
+   	    <item>Coral</item>
+	</string-array>
+   
+	<string-array name="reverb_names">
+	    <item>Gran salón</item>
+	    <item>Salón</item>
+	    <item>Cámara</item>
+	    <item>Habitación</item>
+	    <item>Nada</item>
+	</string-array>
+	
+	<string-array name="reverb_values">
+	    <item>0</item>
+	    <item>1</item>
+  	    <item>2</item>
+  	    <item>3</item>
+  	    <item>-1</item>
+	</string-array>	
+	
+	<string-array name="chorus_names">
+	    <item>Preajuste 1</item>
+  	    <item>Preajuste 2</item>
+  	    <item>Preajuste 3</item>
+  	    <item>Preajuste 4</item>
+	    <item>Nada</item>
+ 	</string-array>
+
+	<string-array name="chorus_values">
+	    <item>0</item>
+	    <item>1</item>
+  	    <item>2</item>
+  	    <item>3</item>
+  	    <item>-1</item>
+  	</string-array>
+	
+	<string-array name="gm_percussions">
+		<item>High Q</item>
+		<item>Bofetada</item>
+		<item>Rayado</item>
+		<item>Rayado</item>
+		<item>Baquetas</item>
+		<item>Cuadrado</item>
+		<item>Metrónomo</item>
+		<item>Metrónomo</item>
+		<item>Bombo 2</item>
+		<item>Bombo 1</item>
+		<item>Aro de caja</item>
+		<item>Caja acústica</item>
+		<item>Palmada</item>
+		<item>Caja eléctrica</item>
+		<item>Timbala de suelo grave</item>
+		<item>Charles cerrado</item>
+		<item>Timbala de suelo aguda</item>
+		<item>Pedal de charles</item>
+		<item>Timbal grave</item>
+		<item>Charles abierto</item>
+		<item>Timbal grave-medio</item>
+		<item>Timbal agudo-medio</item>
+		<item>Plato de corte 1</item>
+		<item>Timbal agudo</item>
+		<item>Plato ride 1</item>
+		<item>Plato de corte chino</item>
+		<item>Campana de ride</item>
+		<item>Pandereta</item>
+		<item>Plato de corte splash</item>
+		<item>Cencerro</item>
+		<item>Plato de corte 2</item>
+		<item>VibraSlap</item>
+		<item>Plato ride 2</item>
+		<item>Bongo agudo</item>
+		<item>Bongo grave</item>
+		<item>Conga aguda tapada</item>
+		<item>Conga aguda abierta</item>
+		<item>Conga grave</item>
+		<item>Timbal agudo</item>
+		<item>Timbal grave</item>
+		<item>Agogo agudo</item>
+		<item>Agogo grave</item>
+		<item>Cabasa</item>
+		<item>Maracas</item>
+		<item>Silbido corto</item>
+		<item>Silbido largo</item>
+		<item>Guiro corto</item>
+		<item>Guiro largo</item>
+		<item>Claves</item>
+		<item>Bloque de madera agudo</item>
+		<item>Bloque de madera grave</item>
+		<item>Cuica tapada</item>
+		<item>Cuica abierta</item>
+		<item>Triángulo tapado</item>
+		<item>Triángulo abierto</item>
+		<item>Agitador</item>
+		<item>Campanas navideñas</item>
+		<item>Árbol de campanas</item>
+		<item>Castañuelas</item>
+		<item>Surdo tapado</item>
+		<item>Surdo abierto</item>
+	</string-array>
+	     
+</resources>

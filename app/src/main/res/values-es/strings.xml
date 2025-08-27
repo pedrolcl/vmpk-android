@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="es">
+    <string name="app_name">VMPK para Android</string>
+    <string name="action_common">Común</string>
+    <string name="action_velocity">Velocidad</string>
+    <string name="action_instrument">Instrumento</string>
+    <string name="action_controller">Controlador</string>
+    <string name="action_bender">Inflexión</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_shownames">Mostrar nombres de notas</string>
+    <string name="action_help">Ayuda</string>
+    <string name="action_about">Acerca de</string>
+    <string name="action_fullscreen">Pantalla completa</string>
+    <string name="turn">Giro</string>
+    <!--<string name="dialog_instruments">Seleccionar un instrumento</string>-->
+    <!--<string name="default_instrument">Acoustic Grand Piano</string>-->
+    <string name="panic">Pánico</string>
+    <string name="reset">Reiniciar</string>
+    <string name="mono">Mono</string>
+    <string name="poly">Poli</string>
+
+    <!--<string name="prefs_name">Preferencias</string>-->
+    <string name="pref_categ_piano">Piano</string>
+    <string name="pref_categ_prog">Programa</string>
+    <string name="pref_categ_synth">Sintetizador MIDI interno</string>
+    <string name="pref_categ_network">Red - UDP Multicast (ipMIDI)</string>
+    <string name="reverb">Reverberación</string>
+    <string name="chorus">Coral</string>
+    <string name="port_number">Número de puerto</string>
+    <string name="ip_address">Dirección multicast</string>
+    <string name="default_reverb">1</string>
+    <string name="default_chorus">-1</string>
+    <string name="default_address">225.0.0.37</string>
+    <string name="default_language">es</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="synth">Sinte</string>
+    <string name="network">Red</string>
+    <string name="summary_synth">Syntetizador MIDI interno</string>
+    <string name="summary_network">Red - UDP Multicast (ipMIDI)</string>
+    <string name="number_keys">Por favor, selecciona el número de teclas:</string>
+    <string name="number_keys_t">Número de teclas de piano</string>
+    <string name="key_color">Color de las teclas pulsadas</string>
+    <string name="pick_color">Elige un color para resaltar las teclas</string>
+    <string name="language">Idioma</string>
+    <string name="pick_lang">Elige el idioma</string>
+    <string name="theme">Tema</string>
+    <string name="midi_out">Salida MIDI</string>
+    <string name="first_key">Primera tecla</string>
+    <string name="default_firstKey">0</string>
+    <string name="double_keyboard">Doble teclado en pantalla completa</string>
+
+    <string name="about_desc">Virtual MIDI Piano Keyboard para Android</string>
+    <string name="about_top"><b>VMPK para Android v1.5</b>\nCopyright © 2013–2025 Pedro López-Cabanillas\n<a href="mailto:plcl@users.sourceforge.net?subject=VMPK">plcl@users.sourceforge.net</a></string>
+    <string name="about_license">Este programa es software libre: puede redistribuirlo o modificarlo bajo los términos de la Licencia Pública General GNU publicada por la Free Software Foundation, ya sea la versión 3 de la Licencia o (a su elección) cualquier versión posterior. Por favor, visita <a href="http://vmpk.sourceforge.net/#Download">vmpk.sourceforge.net</a> y descarga una aplicación complementaria VMPK para Linux, Windows y Mac OSX totalmente gratis</string>
+    <string name="about_download">Descarga una aplicación complementaria VMPK para Linux, Windows y Mac OSX</string>
+    <string name="wifi_dialog_message">La red WiFi no está habilitada</string>
+    <string name="wifi_dialog_title">Error de comunicaciones</string>
+
+    <string name="sensornull_title">Sensor no disponible</string>
+    <string name="sensornull_message">No hay un sensor disponible en el dispositivo. Los mejores resultados se obtienen con Acelerómetro+Giróscopo.</string>
+    <string name="sensornull_button">Cerrar</string>
+
+    <string name="prefs_reset_title">Reasignar ajustes a los valores iniciales</string>
+    <string name="prefs_reset_summary">Pulsar aquí para reasignar todos los ajustes a sus valores iniciales</string>
+
+    <string name="resetdlg_title">Confirmación</string>
+    <string name="resetdlg_message">Confirme que desea reasignar todos los ajustes a los valores iniciales</string>
+</resources>

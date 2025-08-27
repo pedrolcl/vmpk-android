@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto" >
+
+    <PreferenceCategory 
+        android:title="@string/pref_categ_piano"
+        android:key="prefs_piano" >
+        
+      <io.github.pedrolcl.vmpk.NumberPickerDialogPreference
+        android:key="number_of_keys"
+        android:defaultValue="@integer/default_keys"
+        android:dialogMessage="@string/number_keys"
+        android:title="@string/number_keys_t"
+        custom:min="@integer/min_keys"
+        custom:max="@integer/max_keys"
+        />
+
+      <ListPreference 
+        android:title="@string/first_key"
+        android:key="first_key"
+        android:entries="@array/natural_names"
+        android:entryValues="@array/natural_values"
+        android:defaultValue="@string/default_firstKey"
+        />
+      
+	  <afzkl.development.colorpickerview.preference.ColorPickerPreference
+        android:key="color"
+        android:title="@string/key_color" 
+        android:summary="@string/pick_color"
+        android:defaultValue="@android:color/holo_blue_dark"
+        />
+	  
+       <SwitchPreference
+         android:key="midi_output"
+         android:title="@string/midi_out"
+         android:summaryOff="@string/summary_network"
+         android:summaryOn="@string/summary_synth"
+         android:switchTextOff="@string/network"
+         android:switchTextOn="@string/synth"
+         android:defaultValue="true"
+         />
+       
+       <SwitchPreference android:key="double_keyboard"
+         android:title="@string/double_keyboard"
+         android:defaultValue="true"
+         />
+	  	  
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/pref_categ_prog"
+        android:key="prefs_prog" >
+        
+      <ListPreference
+        android:key="lang"
+        android:title="@string/language"
+        android:defaultValue="@string/default_language"
+        android:dialogTitle="@string/pick_lang"
+        android:entries="@array/lang_entries"
+        android:entryValues="@array/lang_values"
+        />
+
+      <SwitchPreference
+        android:key="alternate_theme"
+        android:title="@string/theme"
+        android:switchTextOn="@string/theme_light"
+        android:switchTextOff="@string/theme_dark"
+        android:summaryOff="@string/theme_dark"
+        android:summaryOn="@string/theme_light" 
+        android:defaultValue="false"
+        />
+    
+    </PreferenceCategory>
+     
+    <PreferenceCategory
+        android:title="@string/pref_categ_synth"
+        android:key="prefs_synth" >
+      
+      <ListPreference 
+        android:title="@string/reverb"
+        android:key="reverb" 
+        android:entries="@array/reverb_names"
+        android:entryValues="@array/reverb_values"
+        android:defaultValue="@string/default_reverb"
+        />
+        
+      <ListPreference 
+        android:title="@string/chorus"
+        android:key="chorus"
+        android:entries="@array/chorus_names"
+        android:entryValues="@array/chorus_values"
+        android:defaultValue="@string/default_chorus"
+        />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+        android:title="@string/pref_categ_network"
+        android:key="prefs_network">
+
+      <io.github.pedrolcl.vmpk.NumberPickerDialogPreference
+        android:key="port_number"
+        android:title="@string/port_number"
+        android:defaultValue="@integer/default_port"
+        android:dialogMessage="@string/port_number"
+        custom:min="@integer/min_port"
+        custom:max="@integer/max_port"
+        />
+        
+      <EditTextPreference
+        android:key="ip_address"
+        android:title="@string/ip_address" 
+        android:defaultValue="@string/default_address"
+        />
+      
+    </PreferenceCategory>
+    
+    <Preference android:title="@string/prefs_reset_title"
+                android:key="prefs_reset"
+                android:summary="@string/prefs_reset_summary"/>
+</PreferenceScreen>

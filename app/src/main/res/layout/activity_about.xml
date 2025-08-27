@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/aboutLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AboutActivity" >
+
+    <ImageView
+        android:id="@+id/vmpkLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:background="@drawable/gradientbg"
+        android:contentDescription="@string/about_desc"
+        android:src="@drawable/vmpk_128x128" />
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="fill_horizontal"
+        android:layout_margin="@dimen/activity_margin"
+        android:layout_toRightOf="@id/vmpkLogo"
+        android:autoLink="web|email"
+        android:linksClickable="true"
+        android:text="@string/about_top" />
+
+    <TextView
+        android:id="@+id/bottomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topText"
+        android:layout_alignLeft="@+id/topText"
+        android:layout_alignRight="@+id/topText"
+        android:autoLink="web|email"
+        android:linksClickable="true"
+        android:text="@string/about_license" />
+
+    <ImageView
+        android:id="@+id/linwinmac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bottomText"
+        android:layout_alignRight="@+id/bottomText"
+        android:layout_below="@+id/bottomText"
+        android:contentDescription="@string/about_download"
+        android:src="@drawable/linmacwin"
+        android:padding="24dp" />
+
+</RelativeLayout>

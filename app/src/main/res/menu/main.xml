@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_fullscreen"
+        android:checkable="true"
+        android:checked="false"
+        android:menuCategory="system"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_fullscreen">
+    </item>
+    <item
+        android:id="@+id/action_shownames"
+        android:checkable="true"
+        android:checked="false"
+        android:menuCategory="system"
+        android:orderInCategory="110"
+        android:showAsAction="never"
+        android:title="@string/action_shownames">
+    </item>
+    <item
+        android:id="@+id/action_help"
+        android:menuCategory="system"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/action_help">
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:menuCategory="system"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/action_settings">
+    </item>
+    <item
+        android:id="@+id/action_about"
+        android:menuCategory="system"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="@string/action_about">
+    </item>
+
+</menu>

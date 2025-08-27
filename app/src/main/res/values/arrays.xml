@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    
+   <string-array name="lang_entries" >
+       <item>English</item>
+       <item>Spanish</item>
+   </string-array>
+   
+   <string-array name="lang_values" >
+       <item>en</item>
+       <item>es</item>
+   </string-array>
+
+   <string-array name="note_names">
+        <item>C</item>
+        <item>C♯</item>
+        <item>D</item>
+        <item>D♯</item>
+        <item>E</item>
+        <item>F</item>
+        <item>F♯</item>
+        <item>G</item>
+        <item>G♯</item>
+        <item>A</item>
+        <item>A♯</item>
+        <item>B</item>
+    </string-array>
+
+   <string-array name="natural_names">
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+   
+   <string-array name="natural_values">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+    </string-array>
+   
+   <string-array name="gm_groups">
+        <item>Piano</item>  	
+        <item>Chromatic Percussion</item> 	
+        <item>Organ</item>
+        <item>Guitar</item> 	
+        <item>Bass</item> 	
+        <item>Strings</item> 	
+        <item>Ensemble</item> 	
+        <item>Brass</item>  	
+        <item>Reed</item>
+        <item>Pipe</item>
+        <item>Synth Lead</item>
+        <item>Synth Pad</item>
+        <item>Synth Effects</item>
+        <item>Ethnic</item>
+        <item>Percussive</item>
+        <item>Sound Effects</item>
+   </string-array>
+   
+    <string-array name="gm_instruments">
+		<item>Acoustic Grand Piano</item>
+		<item>Bright Acoustic Piano</item>
+		<item>Electric Grand Piano</item>
+		<item>Honky-tonk Piano</item>
+		<item>Rhodes Piano</item>
+		<item>Chorused Piano</item>
+		<item>Harpsichord</item>
+		<item>Clavinet</item>
+		<item>Celesta</item>
+		<item>Glockenspiel</item>
+		<item>Music Box</item>
+		<item>Vibraphone</item>
+		<item>Marimba</item>
+		<item>Xylophone</item>
+		<item>Tubular Bells</item>
+		<item>Dulcimer</item>
+		<item>Hammond Organ</item>
+		<item>Percussive Organ</item>
+		<item>Rock Organ</item>
+		<item>Church Organ</item>
+		<item>Reed Organ</item>
+		<item>Accordion</item>
+		<item>Harmonica</item>
+		<item>Tango Accordion</item>
+		<item>Acoustic Guitar (nylon)</item>
+		<item>Acoustic Guitar (steel)</item>
+		<item>Electric Guitar (jazz)</item>
+		<item>Electric Guitar (clean)</item>
+		<item>Electric Guitar (muted)</item>
+		<item>Overdriven Guitar</item>
+		<item>Distortion Guitar</item>
+		<item>Guitar Harmonics</item>
+		<item>Acoustic Bass</item>
+		<item>Electric Bass (finger)</item>
+		<item>Electric Bass (pick)</item>
+		<item>Fretless Bass</item>
+		<item>Slap Bass 1</item>
+		<item>Slap Bass 2</item>
+		<item>Synth Bass 1</item>
+		<item>Synth Bass 2</item>
+		<item>Violin</item>
+		<item>Viola</item>
+		<item>Cello</item>
+		<item>Contrabass</item>
+		<item>Tremolo Strings</item>
+		<item>Pizzicato Strings</item>
+		<item>Orchestral Harp</item>
+		<item>Timpani</item>
+		<item>String Ensemble 1</item>
+		<item>String Ensemble 2</item>
+		<item>SynthStrings 1</item>
+		<item>SynthStrings 2</item>
+		<item>Choir Aahs</item>
+		<item>Voice Oohs</item>
+		<item>Synth Voice</item>
+		<item>Orchestra Hit</item>
+		<item>Trumpet</item>
+		<item>Trombone</item>
+		<item>Tuba</item>
+		<item>Muted Trumpet</item>
+		<item>French Horn</item>
+		<item>Brass Section</item>
+		<item>Synth Brass 1</item>
+		<item>Synth Brass 2</item>
+		<item>Soprano Sax</item>
+		<item>Alto Sax</item>
+		<item>Tenor Sax</item>
+		<item>Baritone Sax</item>
+		<item>Oboe</item>
+		<item>English Horn</item>
+		<item>Bassoon</item>
+		<item>Clarinet</item>
+		<item>Piccolo</item>
+		<item>Flute</item>
+		<item>Recorder</item>
+		<item>Pan Flute</item>
+		<item>Bottle Blow</item>
+		<item>Shakuhachi</item>
+		<item>Whistle</item>
+		<item>Ocarina</item>
+		<item>Lead 1 (square)</item>
+		<item>Lead 2 (sawtooth)</item>
+		<item>Lead 3 (calliope lead)</item>
+		<item>Lead 4 (chiff lead)</item>
+		<item>Lead 5 (charang)</item>
+		<item>Lead 6 (voice)</item>
+		<item>Lead 7 (fifths)</item>
+		<item>Lead 8 (bass + lead)</item>
+		<item>Pad 1 (new age)</item>
+		<item>Pad 2 (warm)</item>
+		<item>Pad 3 (polysynth)</item>
+		<item>Pad 4 (choir)</item>
+		<item>Pad 5 (bowed)</item>
+		<item>Pad 6 (metallic)</item>
+		<item>Pad 7 (halo)</item>
+		<item>Pad 8 (sweep)</item>
+		<item>FX 1 (rain)</item>
+		<item>FX 2 (soundtrack)</item>
+		<item>FX 3 (crystal)</item>
+		<item>FX 4 (atmosphere)</item>
+		<item>FX 5 (brightness)</item>
+		<item>FX 6 (goblins)</item>
+		<item>FX 7 (echoes)</item>
+		<item>FX 8 (sci-fi)</item>
+		<item>Sitar</item>
+		<item>Banjo</item>
+		<item>Shamisen</item>
+		<item>Koto</item>
+		<item>Kalimba</item>
+		<item>Bagpipe</item>
+		<item>Fiddle</item>
+		<item>Shanai</item>
+		<item>Tinkle Bell</item>
+		<item>Agogo</item>
+		<item>Steel Drums</item>
+		<item>Woodblock</item>
+		<item>Taiko Drum</item>
+		<item>Melodic Tom</item>
+		<item>Synth Drum</item>
+		<item>Reverse Cymbal</item>
+		<item>Guitar Fret Noise</item>
+		<item>Breath Noise</item>
+		<item>Seashore</item>
+		<item>Bird Tweet</item>
+		<item>Telephone Ring</item>
+		<item>Helicopter</item>
+		<item>Applause</item>
+		<item>Gunshot</item>
+    </string-array>
+
+	<string-array name="channels">
+	    <item>Channel 1</item>
+	    <item>Channel 2</item>
+	    <item>Channel 3</item>
+	    <item>Channel 4</item>
+	    <item>Channel 5</item>
+	    <item>Channel 6</item>
+	    <item>Channel 7</item>
+	    <item>Channel 8</item>
+	    <item>Channel 9</item>
+	    <item>Channel 10</item>
+	    <item>Channel 11</item>
+	    <item>Channel 12</item>
+	    <item>Channel 13</item>
+	    <item>Channel 14</item>
+	    <item>Channel 15</item>
+	    <item>Channel 16</item>
+	</string-array>
+	
+	<string-array name="octaves">
+   	    <item>Octave 0</item>
+	    <item>Octave 1</item>
+	    <item>Octave 2</item>
+   	    <item>Octave 3</item>
+   	    <item>Octave 4</item>
+   	    <item>Octave 5</item>
+   	    <item>Octave 6</item>
+   	    <item>Octave 7</item>
+	</string-array>
+	
+	<string-array name="controllers">
+	    <item>Modulation</item>
+	    <item>Volume</item>
+   	    <item>Pan</item>
+   	    <item>Expression</item>
+   	    <item>Sustain</item>
+   	    <item>Reverb</item>
+   	    <item>Chorus</item>
+	</string-array>
+	
+	<integer-array name="controller_values"> 
+	    <item>1</item>
+	    <item>7</item>
+	    <item>10</item>
+   	    <item>11</item>
+   	    <item>64</item>
+   	    <item>91</item>
+   	    <item>93</item>
+   	</integer-array>
+
+	<integer-array name="controller_defaults"> 
+	    <item>0</item>
+	    <item>100</item>
+	    <item>64</item>
+   	    <item>100</item>
+   	    <item>0</item>
+   	    <item>100</item>
+   	    <item>0</item>
+   	</integer-array>
+	
+	<string-array name="reverb_names">
+	    <item>Large Hall</item>
+	    <item>Hall</item>
+	    <item>Chamber</item>
+	    <item>Room</item>
+	    <item>None</item>
+	</string-array>
+	
+	<string-array name="reverb_values">
+	    <item>0</item>
+	    <item>1</item>
+  	    <item>2</item>
+  	    <item>3</item>
+  	    <item>-1</item>
+	</string-array>	
+
+	<string-array name="chorus_names">
+	    <item>Preset 1</item>
+  	    <item>Preset 2</item>
+  	    <item>Preset 3</item>
+  	    <item>Preset 4</item>
+	    <item>None</item>
+ 	</string-array>
+	
+	<string-array name="chorus_values">
+	    <item>0</item>
+	    <item>1</item>
+  	    <item>2</item>
+  	    <item>3</item>
+  	    <item>-1</item>
+  	</string-array>
+
+	<string-array name="gm_percussions">
+		<item>High Q</item>
+		<item>Slap</item>
+		<item>Scratch</item>
+		<item>Scratch</item>
+		<item>Sticks</item>
+		<item>Square</item>
+		<item>Metronome Click</item>
+		<item>Metronome Bell</item>
+		<item>Bass Drum 2</item>
+		<item>Bass Drum 1</item>
+		<item>Side Stick</item>
+		<item>Acoustic Snare</item>
+		<item>Hand Clap</item>
+		<item>Electric Snare</item>
+		<item>Low Floor Tom</item>
+		<item>Close Hi-Hat</item>
+		<item>High Floor Tom</item>
+		<item>Pedal Hi-Hat</item>
+		<item>Low Tom</item>
+		<item>Open Hi-Hat</item>
+		<item>Low-Mid Tom</item>
+		<item>Hi-Mid Tom</item>
+		<item>Crash Cymbal 1</item>
+		<item>High Tom</item>
+		<item>Ride Cymbal 1</item>
+		<item>Chinese Cymbal</item>
+		<item>Ride Bell</item>
+		<item>Tambourine</item>
+		<item>Splash Cymbal</item>
+		<item>CowBell</item>
+		<item>Crash Cymbal 2</item>
+		<item>VibraSlap</item>
+		<item>Ride Cymbal 2</item>
+		<item>Hi Bongo</item>
+		<item>Low Bongo</item>
+		<item>Mute Hi Conga</item>
+		<item>Open Hi Conga</item>
+		<item>Low Conga</item>
+		<item>High Timbale</item>
+		<item>Low Timbale</item>
+		<item>High Agogo</item>
+		<item>Low Agogo</item>
+		<item>Cabasa</item>
+		<item>Maracas</item>
+		<item>Short Whistle</item>
+		<item>Long Whistle</item>
+		<item>Short Guiro</item>
+		<item>Long Guiro</item>
+		<item>Claves</item>
+		<item>Hi Wood Block</item>
+		<item>Low Wood Block</item>
+		<item>Mute Cuica</item>
+		<item>Open Cuica</item>
+		<item>Mute Triangle</item>
+		<item>Open Triangle</item>
+		<item>Shaker</item>
+		<item>Jingle Bell</item>
+		<item>Belltree</item>
+		<item>Castanets</item>
+		<item>Mute Surdo</item>
+		<item>Open Surdo </item>
+	</string-array>
+		
+</resources>

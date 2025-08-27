@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <string name="app_name">VMPK for Android</string>
+    <string name="action_common">Common</string>
+    <string name="action_velocity">Velocity</string>
+    <string name="action_instrument">Instrument</string>
+    <string name="action_controller">Controller</string>
+    <string name="action_bender">Bender</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_shownames">Show Note Names</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="action_fullscreen">Full Screen</string>
+    <string name="turn">Gyro</string>
+    <!--<string name="dialog_instruments">Select an instrument</string>-->
+    <!--<string name="default_instrument">Acoustic Grand Piano</string>-->
+    <string name="panic">Panic</string>
+    <string name="reset">Reset</string>
+    <string name="mono">Mono</string>
+    <string name="poly">Poly</string>
+
+    <!--<string name="prefs_name">Preferences</string>-->
+    <string name="pref_categ_piano">Piano</string>
+    <string name="pref_categ_prog">Program</string>
+    <string name="pref_categ_synth">Internal MIDI Synthesizer</string>
+    <string name="pref_categ_network">Network - UDP Multicast (ipMIDI)</string>
+    <string name="reverb">Reverb</string>
+    <string name="chorus">Chorus</string>
+    <string name="port_number">Port number</string>
+    <string name="ip_address">Multicast Address</string>
+    <string name="default_reverb">1</string>
+    <string name="default_chorus">-1</string>
+    <string name="default_address">225.0.0.37</string>
+    <string name="default_language">en</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="synth">Synth</string>
+    <string name="network">ipMIDI</string>
+    <string name="summary_synth">Internal MIDI Synthesizer</string>
+    <string name="summary_network">Network - UDP Multicast (ipMIDI)</string>
+    <string name="number_keys">Please select the number of keys:</string>
+    <string name="number_keys_t">Number of Piano Keys</string>
+    <string name="key_color">Key Pressed Color</string>
+    <string name="pick_color">Pick a color for pressed keys</string>
+    <string name="language">Language</string>
+    <string name="pick_lang">Pick your Language</string>
+    <string name="theme">Theme</string>
+    <string name="midi_out">MIDI Output</string>
+    <string name="first_key">First Key</string>
+    <string name="default_firstKey">0</string>
+    <string name="double_keyboard">Double Keyboard in Full Screen</string>
+
+    <string name="about_desc">Virtual MIDI Piano Keyboard for Android</string>
+    <string name="about_top"><b>VMPK for Android v1.5</b>\nCopyright © 2013–2025 Pedro López-Cabanillas\n<a href="mailto:plcl@users.sourceforge.net?subject=VMPK">plcl@users.sourceforge.net</a></string>
+    <string name="about_license">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. Please visit <a href="http://vmpk.sourceforge.net/#Download">vmpk.sourceforge.net</a> and download a complementary VMPK application for Linux, Windows and Mac OSX for free</string>
+    <string name="about_download">Download a complementary VMPK application for Linux, Windows and Mac OSX</string>
+    <string name="wifi_dialog_message">WiFi network is not enabled</string>
+    <string name="wifi_dialog_title">Communications error</string>
+
+    <string name="sensornull_title">Sensor not available</string>
+    <string name="sensornull_message">No sensor is available in your device. You would get the best results with Accelerometer+Gyroscope.</string>
+    <string name="sensornull_button">Close</string>
+
+    <string name="prefs_reset_title">Reset settings to default values</string>
+    <string name="prefs_reset_summary">Press here to reset all settings to the default values</string>
+
+    <string name="resetdlg_title">Confirm settings reset</string>
+    <string name="resetdlg_message">Please confirm that you want to reset all your current settings to the default values.</string>
+</resources>

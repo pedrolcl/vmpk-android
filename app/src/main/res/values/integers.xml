@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_keys">25</integer>
+    <integer name="first_key">0</integer>
+    <integer name="min_keys">12</integer>
+    <integer name="max_keys">49</integer>
+    <integer name="default_port">21928</integer>
+    <integer name="min_port">21928</integer>
+    <integer name="max_port">21947</integer>
+</resources>

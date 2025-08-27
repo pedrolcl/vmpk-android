@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_controller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Spinner
+        android:id="@+id/spinControllers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:entries="@array/controllers" />
+
+    <SeekBar
+        android:id="@+id/controlBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_weight="2"
+        android:max="127"
+        android:progress="0"/>
+
+    <TextView
+        android:id="@+id/controlText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:gravity="end"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ToggleButton
+        android:id="@+id/controlTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textOn="@string/turn"
+        android:textOff="@string/turn"/>
+
+</LinearLayout>

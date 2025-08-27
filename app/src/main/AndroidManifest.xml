@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature android:name="android.hardware.audio.low_latency" android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.gyroscope" android:required="false" />
+    <uses-feature android:name="android.hardware.screen.landscape" android:required="true" />
+    <uses-feature android:name="android.hardware.wifi" android:required="false" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        android:supportsRtl="true"
+        android:extractNativeLibs="false">
+        <activity
+            android:name="io.github.pedrolcl.vmpk.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:exported="true">
+            <intent-filter> 
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="io.github.pedrolcl.vmpk.SettingsActivity"
+            android:parentActivityName="io.github.pedrolcl.vmpk.MainActivity"
+            android:exported="false">
+            <intent-filter>
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.github.pedrolcl.vmpk.MainActivity" />
+        </activity>
+        <activity
+            android:name="io.github.pedrolcl.vmpk.HelpActivity"
+            android:parentActivityName="io.github.pedrolcl.vmpk.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.github.pedrolcl.vmpk.MainActivity" />
+        </activity>
+        <activity
+            android:name="io.github.pedrolcl.vmpk.AboutActivity"
+            android:label="@string/about_desc"
+            android:parentActivityName="io.github.pedrolcl.vmpk.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.github.pedrolcl.vmpk.MainActivity" />
+        </activity>
+    </application>
+</manifest>
