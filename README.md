@@ -4,7 +4,7 @@ This is the Java version of VMPK, ported to the Android operating system.
 
 ## Screenshot
 
-![Screenshot](vmpk-android.1.5.png)
+![Screenshot](vmpk-android-1.5.png)
 
 ## License
 
