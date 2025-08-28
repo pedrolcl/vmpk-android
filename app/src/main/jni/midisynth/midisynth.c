@@ -157,7 +157,7 @@ JNIEXPORT jboolean JNICALL Java_io_github_pedrolcl_vmpk_MIDISynth_write(JNIEnv *
 		buffer = (EAS_U8 *)(*env)->GetByteArrayElements(env, ba, &bc);
 		count = (*env)->GetArrayLength(env, ba);
 		eas_res = EAS_WriteMIDIStream(lc->easData, lc->easHandle, buffer, count);
-		(*env)->ReleaseByteArrayElements(env, ba, buffer, 0);
+		(*env)->ReleaseByteArrayElements(env, ba, (jbyte  *)buffer, 0);
     }
 	if (eas_res != EAS_SUCCESS) {
 		//LOGW("EAS_WriteMIDIStream error: %ld", eas_res);

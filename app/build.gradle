@@ -11,9 +11,9 @@ android {
         applicationId = 'io.github.pedrolcl.vmpk'
     }
 
-    sourceSets {
-        main {
-            jni.srcDirs = [] //disable automatic ndk-build
+    externalNativeBuild {
+        ndkBuild {
+            path "src/main/jni/Android.mk"
         }
     }
 

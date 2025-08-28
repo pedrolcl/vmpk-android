@@ -32,7 +32,7 @@
 */
 
 #ifndef EAS_PAN_H
-#define _EAS_PAN_H
+#define EAS_PAN_H
 
 #include "eas_types.h"
 
