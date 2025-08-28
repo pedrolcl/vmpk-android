@@ -7,8 +7,9 @@ android {
         versionCode 150
         versionName '1.5'
         minSdkVersion 29
-        compileSdkVersion 33
+        compileSdk 33
         applicationId = 'io.github.pedrolcl.vmpk'
+        archivesBaseName = "$applicationId-v$versionName"
     }
 
     externalNativeBuild {
@@ -21,12 +22,10 @@ android {
         release {
             minifyEnabled true
             shrinkResources false
-            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
 
 dependencies {
     implementation project(':colorPickerView')
-    //implementation 'com.android.support:appcompat-v7:21.0.+'
 }

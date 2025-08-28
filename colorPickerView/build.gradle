@@ -4,14 +4,13 @@ android {
 
     defaultConfig {
         minSdkVersion 29
-        compileSdkVersion 33
+        compileSdk 33
     }
 
     buildTypes {
         release {
             minifyEnabled false
             shrinkResources false
-            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
