@@ -1,0 +1,1 @@
+This is the Android port of VMPK - Virtual MIDI Piano Keyboard (https://vmpk.sourceforge.io)
