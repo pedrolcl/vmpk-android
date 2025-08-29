@@ -4,8 +4,8 @@ android {
     namespace 'io.github.pedrolcl.vmpk'
 
     defaultConfig {
-        versionCode 150
-        versionName '1.5'
+        versionCode 151
+        versionName '1.5.1'
         minSdkVersion 29
         compileSdk 33
         applicationId = 'io.github.pedrolcl.vmpk'
@@ -23,6 +23,13 @@ android {
             minifyEnabled true
             shrinkResources false
         }
+    }
+
+    dependenciesInfo {
+        // Disables dependency metadata when building APKs (for IzzyOnDroid/F-Droid)
+        includeInApk = false
+        // Disables dependency metadata when building Android App Bundles (for Google Play)
+        includeInBundle = false
     }
 }
 

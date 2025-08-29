@@ -51,7 +51,7 @@
     <string name="double_keyboard">Doble teclado en pantalla completa</string>
 
     <string name="about_desc">Virtual MIDI Piano Keyboard para Android</string>
-    <string name="about_top"><b>VMPK para Android v1.5</b>\nCopyright © 2013–2025 Pedro López-Cabanillas\n<a href="mailto:plcl@users.sourceforge.net?subject=VMPK">plcl@users.sourceforge.net</a></string>
+    <string name="about_top"><b>VMPK para Android v1.5.1</b>\nCopyright © 2013–2025 Pedro López-Cabanillas\n<a href="mailto:plcl@users.sourceforge.net?subject=VMPK">plcl@users.sourceforge.net</a></string>
     <string name="about_license">Este programa es software libre: puede redistribuirlo o modificarlo bajo los términos de la Licencia Pública General GNU publicada por la Free Software Foundation, ya sea la versión 3 de la Licencia o (a su elección) cualquier versión posterior. Por favor, visita <a href="http://vmpk.sourceforge.net/#Download">vmpk.sourceforge.net</a> y descarga una aplicación complementaria VMPK para Linux, Windows y Mac OSX totalmente gratis</string>
     <string name="about_download">Descarga una aplicación complementaria VMPK para Linux, Windows y Mac OSX</string>
     <string name="wifi_dialog_message">La red WiFi no está habilitada</string>
