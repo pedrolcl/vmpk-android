@@ -1,9 +1,17 @@
 name: Fastlane check
 
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
+  check:
+
+    runs-on: ubuntu-latest
+
+    steps:
     - uses: actions/checkout@v3
     - uses: ashutoshgngwr/validate-fastlane-supply-metadata@v2
