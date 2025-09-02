@@ -8,7 +8,7 @@ Virtual MIDI Piano Keyboard for Android is a MIDI events generator simulating a 
  ![GitHub License](https://img.shields.io/github/license/pedrolcl/vmpk-android)
  [<img src="https://shields.rbtlog.dev/simple/io.github.pedrolcl.vmpk" alt="RB Status">](https://shields.rbtlog.dev/io.github.pedrolcl.vmpk)
 
-[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="IzzyOnDroid">](https://apt.izzysoft.de/packages/io.github.pedrolcl.vmpk)
+[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="IzzyOnDroid" width="182" height="70">](https://apt.izzysoft.de/packages/io.github.pedrolcl.vmpk)
 
 ## Description
 
