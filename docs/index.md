@@ -1,3 +1,5 @@
+> Virtual MIDI Piano Keyboard for Android is a MIDI events generator simulating a MIDI controller. It generates sound with the help of an embedded software MIDI synthesizer (Sonivox EAS) or sends MIDI events to the local network using a compatible IPMIDI protocol.
+
 ![icon](icon.png)
 
  [![Android CI](https://github.com/pedrolcl/vmpk-android/actions/workflows/android.yml/badge.svg)](https://github.com/pedrolcl/vmpk-android/actions/workflows/android.yml)
