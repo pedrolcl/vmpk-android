@@ -1,11 +1,7 @@
-# VMPK for Android
-
-This is the Java version of VMPK, ported to the Android operating system.
-
-Virtual MIDI Piano Keyboard for Android is a MIDI events generator simulating a MIDI controller. It generates sound with the help of an embedded software MIDI synthesizer (Sonivox EAS) or sends MIDI events to the local network using a compatible IPMIDI protocol.
+![icon](icon.png)
 
  [![Android CI](https://github.com/pedrolcl/vmpk-android/actions/workflows/android.yml/badge.svg)](https://github.com/pedrolcl/vmpk-android/actions/workflows/android.yml)
- ![GitHub License](https://img.shields.io/github/license/pedrolcl/vmpk-android)
+ ![License](https://img.shields.io/github/license/pedrolcl/vmpk-android)
  [<img src="https://shields.rbtlog.dev/simple/io.github.pedrolcl.vmpk" alt="RB Status">](https://shields.rbtlog.dev/io.github.pedrolcl.vmpk)
 
 [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="IzzyOnDroid" width="182" height="70">](https://apt.izzysoft.de/packages/io.github.pedrolcl.vmpk)
@@ -111,7 +107,7 @@ in your computers in the same way as well.
 
 ## Screenshot
 
-![Screenshot](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)
+![Screenshot](screenshot.png)
 
 ## License
 
