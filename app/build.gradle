@@ -6,7 +6,7 @@ android {
     defaultConfig {
         versionCode 152
         versionName '1.5.2'
-        minSdkVersion 29
+        minSdkVersion 28
         compileSdk 33
         applicationId = 'io.github.pedrolcl.vmpk'
         archivesBaseName = "$applicationId-v$versionName"

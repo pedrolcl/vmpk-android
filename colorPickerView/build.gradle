@@ -3,7 +3,7 @@ android {
     namespace 'afzkl.development.colorpickerview'
 
     defaultConfig {
-        minSdkVersion 29
+        minSdkVersion 28
         compileSdk 33
     }
 
