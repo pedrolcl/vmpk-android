@@ -15,11 +15,12 @@ import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 
 import java.net.DatagramPacket;
+import java.net.Inet6Address;
 import java.net.InetAddress;
 import java.net.MulticastSocket;
 import java.net.NetworkInterface;
 
-// thread independiente para gestionar el envío en segundo plano,
+// independent thread, to manage background send
 // AsyncTask: http://developer.android.com/reference/android/os/AsyncTask.html
 public class NetworkMidi implements MidiEngine {
 
@@ -27,11 +28,14 @@ public class NetworkMidi implements MidiEngine {
 	private WifiManager mWifi = null;
 	private WifiManager.MulticastLock mLock = null;
 
-	// settings para el numero de puerto y grupo multicast
+	// settings for the port number and the multicast group
+	static final String DEFAULT_IP_PROTOCOL = "4";
 	static final int DEFAULT_PORT_NO = 21928;
-	static final String DEFAULT_GROUP_ADDR = "225.0.0.37";
+	static final String DEFAULT_GROUP_ADDR_V4 = "225.0.0.37";
+	static final String DEFAULT_GROUP_ADDR_V6 = "ff12::37";
 	// static final int TIME_TO_LIVE = 1;
 
+	private String mProtocol;
 	private int mPort;
 	private InetAddress mGroupAddr;
 
@@ -93,12 +97,14 @@ public class NetworkMidi implements MidiEngine {
 
 	private void readSettings(Activity activity) {
 		try {
-			mGroupAddr = InetAddress.getByName(DEFAULT_GROUP_ADDR);
 			SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(activity);
-			int defaultPort = activity.getResources().getInteger(R.integer.default_port);
-			String defaultGroupAddr = activity.getResources().getString(R.string.default_address);
-			mPort = sharedPrefs.getInt("port_number", defaultPort);
-			mGroupAddr = InetAddress.getByName(sharedPrefs.getString("ip_address", defaultGroupAddr));
+			mProtocol = sharedPrefs.getString( "default_protocol", DEFAULT_IP_PROTOCOL);
+			mPort = sharedPrefs.getInt("port_number", DEFAULT_PORT_NO);
+			if (mProtocol == DEFAULT_IP_PROTOCOL) {
+				mGroupAddr = InetAddress.getByName(sharedPrefs.getString("ip_address", DEFAULT_GROUP_ADDR_V4));
+			} else {
+				mGroupAddr = Inet6Address.getByName(sharedPrefs.getString("ip_address", DEFAULT_GROUP_ADDR_V6));
+			}
 		} catch (Exception ex) {
 			Log.e("NetworkMidi", "Initialization Error", ex);
 			mPort = DEFAULT_PORT_NO;

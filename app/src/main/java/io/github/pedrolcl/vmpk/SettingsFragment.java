@@ -22,6 +22,7 @@ import android.preference.PreferenceManager;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.prefs.PreferenceChangeEvent;
 
 public class SettingsFragment extends PreferenceFragment
 		implements OnSharedPreferenceChangeListener {
@@ -61,6 +62,20 @@ public class SettingsFragment extends PreferenceFragment
 			});
 		}
 
+		ListPreference protocol = (ListPreference) findPreference( "ip_protocol" );
+		EditTextPreference address =  (EditTextPreference) findPreference( "ip_address" );
+
+		if (protocol != null && address != null) {
+			protocol.setOnPreferenceChangeListener((preference, newValue) -> {
+				String ipproto = (String) newValue;
+				if (ipproto == getString(R.string.default_protocol)) {
+					address.setText(getString(R.string.default_address));
+				} else {
+					address.setText(getString(R.string.default_v6_address));
+				}
+				return true;
+			});
+		}
 		maybeRemoveSystemMidiOption();
 	}
 
