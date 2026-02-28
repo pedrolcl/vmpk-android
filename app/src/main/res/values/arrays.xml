@@ -374,4 +374,14 @@
 		<item>2</item>
 	</string-array>
 
+	<string-array name="ip_protocols">
+		<item>@string/ip_proto_v4</item>
+		<item>@string/ip_proto_v6</item>
+	</string-array>
+
+	<string-array name="ip_protocol_values">
+		<item>4</item>
+		<item>6</item>
+	</string-array>
+
 </resources>

@@ -104,6 +104,14 @@
         android:title="@string/pref_categ_network"
         android:key="prefs_network">
 
+      <ListPreference
+        android:title="@string/ip_proto"
+        android:key="ip_protocol"
+        android:entries="@array/ip_protocols"
+        android:entryValues="@array/ip_protocol_values"
+        android:defaultValue="4"
+        />
+
       <io.github.pedrolcl.vmpk.NumberPickerDialogPreference
         android:key="port_number"
         android:title="@string/port_number"

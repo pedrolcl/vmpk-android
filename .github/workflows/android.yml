@@ -31,9 +31,9 @@ jobs:
       run: ./gradlew build
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v6
+      uses: actions/upload-artifact@v7
       with:
-        name: app-debug
+        archive: false
         path: app/build/outputs/apk/debug/*.apk
         retention-days: 90
         overwrite: true

@@ -27,10 +27,15 @@
     <string name="reverb">Reverb</string>
     <string name="chorus">Chorus</string>
     <string name="port_number">Port number</string>
+    <string name="ip_proto">IP protocol</string>
+    <string name="ip_proto_v4">IPv4</string>
+    <string name="ip_proto_v6">IPv6</string>
     <string name="ip_address">Multicast Address</string>
     <string name="default_reverb">1</string>
     <string name="default_chorus">-1</string>
     <string name="default_address">225.0.0.37</string>
+    <string name="default_v6_address">ff12::37</string>
+    <string name="default_protocol">4</string>
     <string name="default_language">en</string>
     <string name="theme_light">Light</string>
     <string name="theme_dark">Dark</string>
