@@ -69,7 +69,7 @@
     <string name="resetdlg_title">Confirm settings reset</string>
     <string name="resetdlg_message">Please confirm that you want to reset all your current settings to the default values.</string>
 
-    <string name="action_midi_port">MIDI Port</string>
+    <string name="action_midi_port" translatable="false">MIDI Out</string>
     <string name="action_midi_port_disconnected">(not connected)</string>
     <string name="dialog_midi_device_error_title">MIDI Device Error</string>
     <string name="dialog_midi_device_error_message">The MIDI device has disconnected.</string>

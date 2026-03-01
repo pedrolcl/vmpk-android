@@ -62,7 +62,6 @@
 
     <string name="resetdlg_title">Confirmación</string>
     <string name="resetdlg_message">Confirme que desea reasignar todos los ajustes a los valores iniciales</string>
-    <string name="action_midi_port">Puerto MIDI</string>
     <string name="action_midi_port_disconnected">(no conectado)</string>
     <string name="dialog_midi_device_error_title">Error en dispositivo MIDI</string>
     <string name="dialog_midi_device_error_message">El dispositivo MIDI se ha desconectado</string>
