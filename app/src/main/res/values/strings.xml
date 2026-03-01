@@ -12,14 +12,11 @@
     <string name="action_about">About</string>
     <string name="action_fullscreen">Full Screen</string>
     <string name="turn">Gyro</string>
-    <!--<string name="dialog_instruments">Select an instrument</string>-->
-    <!--<string name="default_instrument">Acoustic Grand Piano</string>-->
     <string name="panic">Panic</string>
     <string name="reset">Reset</string>
     <string name="mono">Mono</string>
     <string name="poly">Poly</string>
 
-    <!--<string name="prefs_name">Preferences</string>-->
     <string name="pref_categ_piano">Piano</string>
     <string name="pref_categ_prog">Program</string>
     <string name="pref_categ_synth">Internal MIDI Synthesizer</string>
@@ -28,14 +25,14 @@
     <string name="chorus">Chorus</string>
     <string name="port_number">Port number</string>
     <string name="ip_proto">IP protocol</string>
-    <string name="ip_proto_v4">IPv4</string>
-    <string name="ip_proto_v6">IPv6</string>
+    <string name="ip_proto_v4" translatable="false">IPv4</string>
+    <string name="ip_proto_v6" translatable="false">IPv6</string>
     <string name="ip_address">Multicast Address</string>
-    <string name="default_reverb">1</string>
-    <string name="default_chorus">-1</string>
-    <string name="default_address">225.0.0.37</string>
-    <string name="default_v6_address">ff12::37</string>
-    <string name="default_protocol">4</string>
+    <string name="default_reverb" translatable="false">1</string>
+    <string name="default_chorus" translatable="false">-1</string>
+    <string name="default_address" translatable="false">225.0.0.37</string>
+    <string name="default_v6_address" translatable="false">ff12::37</string>
+    <string name="default_protocol" translatable="false">4</string>
     <string name="default_language">en</string>
     <string name="theme_light">Light</string>
     <string name="theme_dark">Dark</string>
@@ -52,7 +49,7 @@
     <string name="theme">Theme</string>
     <string name="midi_output_mode">MIDI Output Mode</string>
     <string name="first_key">First Key</string>
-    <string name="default_firstKey">0</string>
+    <string name="default_firstKey" translatable="false">0</string>
     <string name="double_keyboard">Double Keyboard in Full Screen</string>
 
     <string name="about_desc">Virtual MIDI Piano Keyboard for Android</string>

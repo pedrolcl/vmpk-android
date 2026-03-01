@@ -12,14 +12,12 @@
     <string name="action_about">Acerca de</string>
     <string name="action_fullscreen">Pantalla completa</string>
     <string name="turn">Giro</string>
-    <!--<string name="dialog_instruments">Seleccionar un instrumento</string>-->
-    <!--<string name="default_instrument">Acoustic Grand Piano</string>-->
+
     <string name="panic">Pánico</string>
     <string name="reset">Reiniciar</string>
     <string name="mono">Mono</string>
     <string name="poly">Poli</string>
 
-    <!--<string name="prefs_name">Preferencias</string>-->
     <string name="pref_categ_piano">Piano</string>
     <string name="pref_categ_prog">Programa</string>
     <string name="pref_categ_synth">Sintetizador MIDI interno</string>
@@ -27,10 +25,8 @@
     <string name="reverb">Reverberación</string>
     <string name="chorus">Coral</string>
     <string name="port_number">Número de puerto</string>
+    <string name="ip_proto">Protocolo IP</string>
     <string name="ip_address">Dirección multicast</string>
-    <string name="default_reverb">1</string>
-    <string name="default_chorus">-1</string>
-    <string name="default_address">225.0.0.37</string>
     <string name="default_language">es</string>
     <string name="theme_light">Claro</string>
     <string name="theme_dark">Oscuro</string>
@@ -45,9 +41,9 @@
     <string name="language">Idioma</string>
     <string name="pick_lang">Elige el idioma</string>
     <string name="theme">Tema</string>
-    <!--<string name="midi_output_mode">MIDI Output Mode</string>-->
+
+    <string name="midi_output_mode">Modo de salida MIDI</string>
     <string name="first_key">Primera tecla</string>
-    <string name="default_firstKey">0</string>
     <string name="double_keyboard">Doble teclado en pantalla completa</string>
 
     <string name="about_desc">Virtual MIDI Piano Keyboard para Android</string>
@@ -66,11 +62,11 @@
 
     <string name="resetdlg_title">Confirmación</string>
     <string name="resetdlg_message">Confirme que desea reasignar todos los ajustes a los valores iniciales</string>
+    <string name="action_midi_port">Puerto MIDI</string>
+    <string name="action_midi_port_disconnected">(no conectado)</string>
+    <string name="dialog_midi_device_error_title">Error en dispositivo MIDI</string>
+    <string name="dialog_midi_device_error_message">El dispositivo MIDI se ha desconectado</string>
+    <string name="dialog_midi_port_error_title">Error en puerto MIDI</string>
+    <string name="dialog_midi_port_error_message">Error abriendo el puerto MIDI IN</string>
 
-    <!--<string name="action_midi_port">MIDI Port</string>-->
-    <!--<string name="action_midi_port_disconnected">(not connected)</string>-->
-    <!--<string name="dialog_midi_device_error_title">MIDI Device Error</string>-->
-    <!--<string name="dialog_midi_device_error_message">The MIDI device has disconnected.</string>-->
-    <!--<string name="dialog_midi_port_error_title">MIDI Port Error</string>-->
-    <!--<string name="dialog_midi_port_error_message">Failed to open the MIDI input port.</string>-->
 </resources>
